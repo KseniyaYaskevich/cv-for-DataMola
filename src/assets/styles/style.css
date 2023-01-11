@@ -110,3 +110,61 @@ h3 {
     color: var(--color-text--primary);
 }
 
+/* Introduction */
+
+.introduction {
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+
+    text-align: center;
+}
+
+.introduction__title,
+.introduction__subtitle {
+    text-align: left;
+    color: var(--color-text--secondary);
+}
+
+.introduction__title {
+    padding-left: 5%;
+
+    font-size: 1.5rem;
+}
+
+.introduction__subtitle {
+    padding-left: 10%;
+    margin-bottom: 2rem;
+
+    font-size: 1.2rem;
+}
+
+.introduction__photo-wrapper {
+    display: inline-block;
+    padding: 1rem;
+
+    background: linear-gradient(135deg, var(--color-bg--secondary) 50%, var(--color-bg--primary) 50%);
+    border-radius: 100%;
+
+    box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.2);
+}
+
+.introduction__photo {
+    border-radius: 100%;
+}
+
+.introduction__age,
+.introduction__location {
+    text-align: right;
+
+    font-size: 1.2rem;
+    font-family: var(--font-family--caveat);
+}
+
+.introduction__age {
+    margin-right: 10%;
+}
+
+.introduction__location {
+    margin-right: 5%;
+}
+
