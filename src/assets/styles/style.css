@@ -307,3 +307,25 @@ h3 {
     }
 }
 
+
+@media (min-width:769px) {
+
+    .introduction {
+        padding-top: 1rem;
+        padding-bottom: 8rem;
+    }
+
+    .introduction__title {
+        font-size: 3rem;
+    }
+
+    .introduction__subtitle {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+
+    .introduction__age,
+    .introduction__location {
+        font-size: 2rem;
+    }
+}
