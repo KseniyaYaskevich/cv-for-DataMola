@@ -1,0 +1,10 @@
+:root {
+    --font-family--caveat: 'Caveat', cursive;
+    --font-family--open-sans: 'Open Sans', sans-serif;
+
+    --color-bg--primary: #4e624c;
+    --color-bg--secondary: #FFFFFF;
+
+    --color-text--primary: #181818;
+    --color-text--secondary: #fff4e9;
+}
