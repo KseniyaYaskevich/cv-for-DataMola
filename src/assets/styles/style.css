@@ -61,3 +61,52 @@ h3 {
     margin: 0 auto;
     padding: 0 1.25rem;
 }
+
+/* Header */
+
+.page-header {
+    background: var(--color-bg--primary);
+    background: linear-gradient(135deg, var(--color-bg--primary) 50%, var(--color-bg--secondary) 50%);
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 0;
+}
+
+.navbar__text {
+    font-size: 3rem;
+    font-family: var(--font-family--caveat);
+    color: var(--color-text--secondary);
+}
+
+/* Main-nav */
+
+.main-nav {
+    display: flex;
+}
+
+.main-nav__toggle {
+    display: none;
+}
+
+.main-nav__list {
+    display: flex;
+    list-style: none;
+}
+
+.main-nav__link {
+    display: block;
+    padding: 1rem;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-text--primary);
+}
+
