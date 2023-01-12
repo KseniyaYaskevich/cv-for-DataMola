@@ -172,7 +172,14 @@ h3 {
 
 /* Skills */
 
+.skills {
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+}
+
 .skills__title {
+    margin-bottom: 2rem;
+
     text-align: center;
 }
 
