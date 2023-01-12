@@ -103,9 +103,11 @@ h3 {
 .main-nav__link {
     display: block;
     padding: 1rem;
+    text-align: center;
 
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: bold;
+    font-family: var(--font-family--caveat);
     text-decoration: none;
     color: var(--color-text--primary);
 }
