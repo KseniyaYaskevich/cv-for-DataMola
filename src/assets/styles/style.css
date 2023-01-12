@@ -265,6 +265,35 @@ h3 {
     max-width: 400px;
 }
 
+/* Education */
+
+.education {
+    margin-bottom: 3rem;
+}
+
+.education__title {
+    margin-bottom: 2rem;
+}
+
+.education__list {
+    list-style: none;
+}
+
+.education__place {
+    display: flex;
+    flex-direction: column;
+}
+
+.education__desc {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+.education__item:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
 
 /* Media queries */
 
