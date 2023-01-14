@@ -504,6 +504,13 @@ h3 {
         background: transparent;
         border: none;
         cursor: pointer;
+
+        transition: transform .3s ease-out, color .3s ease-out;
+    }
+
+    .main-nav__toggle:hover,
+    .main-nav__toggle:hover {
+        transform: translateY(1px);
     }
 
     .main-nav__toggle::before,
@@ -518,6 +525,7 @@ h3 {
 
         border-radius: 4px;
         background-color: var(--color-text--primary);
+
         transition: all .5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
     }
 
@@ -527,6 +535,11 @@ h3 {
 
     .main-nav__toggle::after {
         bottom: 35%;
+    }
+
+    .main-nav__toggle:hover::before,
+    .main-nav__toggle:hover::after {
+        background-color: var(--color-bg--primary);
     }
 
     .main-nav__list {
