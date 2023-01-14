@@ -685,4 +685,7 @@ h3 {
 
     }
 
+    .pets__img {
+        height: 450px;
+    }
 }
