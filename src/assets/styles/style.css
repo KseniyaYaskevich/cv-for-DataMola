@@ -57,7 +57,7 @@ h3 {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 0 1.25rem;
 }
@@ -678,4 +678,10 @@ h3 {
     html {
         font-size: 20px;
     }
+
+    .container {
+        max-width: 1200px;
+
+    }
+
 }
