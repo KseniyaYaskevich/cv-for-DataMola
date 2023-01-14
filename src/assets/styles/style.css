@@ -9,8 +9,6 @@
     --color-text--secondary: #fff4e9;
 }
 
-/* Global */
-
 *,
 *::before,
 *::after {
@@ -84,15 +82,11 @@ h3 {
     padding: 0 1.25rem;
 }
 
-/* Header */
-
 .page-header {
     background: var(--color-bg--primary);
     background: -o-linear-gradient(315deg, var(--color-bg--primary) 50%, var(--color-bg--secondary) 50%);
     background: linear-gradient(135deg, var(--color-bg--primary) 50%, var(--color-bg--secondary) 50%);
 }
-
-/* Navbar */
 
 .navbar {
     display: -webkit-box;
@@ -113,8 +107,6 @@ h3 {
     font-family: var(--font-family--caveat);
     color: var(--color-text--secondary);
 }
-
-/* Main-nav */
 
 .main-nav {
     display: -webkit-box;
@@ -144,8 +136,6 @@ h3 {
     text-decoration: none;
     color: var(--color-text--primary);
 }
-
-/* Introduction */
 
 .introduction {
     padding-top: 2rem;
@@ -207,10 +197,6 @@ h3 {
     margin-right: 5%;
 }
 
-/* Main */
-
-/* Skills */
-
 .skills {
     padding-top: 3rem;
     margin-bottom: 3rem;
@@ -265,8 +251,6 @@ h3 {
         -ms-transform: scale(1.1);
             transform: scale(1.1);
 }
-
-/* About */
 
 .about {
     margin-bottom: 3rem;
@@ -348,8 +332,6 @@ h3 {
     max-width: 400px;
 }
 
-/* Education */
-
 .education {
     margin-bottom: 3rem;
 }
@@ -386,8 +368,6 @@ h3 {
 .education__item:not(:last-child) {
     margin-bottom: 1.5rem;
 }
-
-/* Pets */
 
 .pets {
     margin-bottom: 3rem;
@@ -485,8 +465,6 @@ h3 {
     background-color: var(--color-bg--primary);
 }
 
-/* Footer */
-
 .page-footer {
     background: var(--color-bg--primary);
 }
@@ -495,8 +473,6 @@ h3 {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-
-/* Contacts */
 
 .page-footer__contacts {
     text-align: center;
@@ -583,8 +559,6 @@ h3 {
 
     fill: currentColor;
 }
-
-/* Media queries */
 
 @media (max-width:768px) {
 
